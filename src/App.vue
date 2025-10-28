@@ -1,14 +1,15 @@
 <template>
-  <PadreNumeros />
+  <SumaCheckbox />
 </template>
 
 <script>
-import PadreNumeros from './components/PadreNumeros.vue';
+
+import SumaCheckbox from './components/SumaCheckbox.vue';
 
 export default {
   name: 'App',
   components: {
-    PadreNumeros
+    SumaCheckbox
   }
 }
 </script>
