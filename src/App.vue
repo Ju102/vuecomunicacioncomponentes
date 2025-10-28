@@ -1,16 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <PadreDeportes />
+  <PadreNumeros />
 </template>
 
 <script>
-import PadreDeportes from './components/PadreDeportes.vue';
-
+import PadreNumeros from './components/PadreNumeros.vue';
 
 export default {
   name: 'App',
   components: {
-    PadreDeportes
+    PadreNumeros
   }
 }
 </script>
@@ -22,6 +20,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: blanchedalmond;
 }
 </style>
